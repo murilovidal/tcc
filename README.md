@@ -1,2 +1,2 @@
 # tcc
-Trabalho final de graduação - Uma rede social baseada numa dinâmica de perguntas e respostas
+Final Graduation Work - A social network based on a dynamic of questions and answers

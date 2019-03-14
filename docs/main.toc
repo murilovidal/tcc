@@ -1,0 +1,25 @@
+\babel@toc {brazilian}{}
+\babel@toc {brazilian}{}
+\babel@toc {brazilian}{}
+\babel@toc {english}{}
+\babel@toc {brazilian}{}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{9}{chapter.11}% 
+\contentsline {chapter}{\numberline {2}Alguns exemplos}{11}{chapter.13}% 
+\contentsline {section}{\numberline {2.1}Guias de \LaTeX }{11}{section.14}% 
+\contentsline {section}{\numberline {2.2}Estrutura do texto}{11}{section.15}% 
+\contentsline {section}{\numberline {2.3}Estilo de reda\IeC {\c c}\IeC {\~a}o}{11}{section.16}% 
+\contentsline {section}{\numberline {2.4}Exemplo de figura}{12}{section.17}% 
+\contentsline {section}{\numberline {2.5}Exemplo de tabela}{12}{section.20}% 
+\contentsline {section}{\numberline {2.6}Exemplo de equa\IeC {\c c}\IeC {\~a}o}{13}{section.22}% 
+\contentsline {section}{\numberline {2.7}Exemplos de c\IeC {\'o}digo-fonte}{13}{section.24}% 
+\contentsline {section}{\numberline {2.8}Exemplo de algoritmo}{14}{section.45}% 
+\contentsline {section}{\numberline {2.9}Exemplo de cita\IeC {\c c}\IeC {\~a}o}{14}{section.58}% 
+\contentsline {section}{\numberline {2.10}Conclus\IeC {\~a}o}{15}{section.59}% 
+\contentsline {chapter}{Refer\^encias}{16}{chapter*.60}% 
+\contentsline {chapter}{Ap\^endice\ A: Exemplo de anexo}{17}{appendix*.62}% 
+\contentsline {section}{\numberline {A.1}Uma Se\IeC {\c c}\IeC {\~a}o}{17}{section.63}% 
+\contentsline {subsection}{\numberline {A.1.1}Uma Subse\IeC {\c c}\IeC {\~a}o}{18}{subsection.64}% 
+\contentsline {subsubsection}{Uma Subsubse\IeC {\c c}\IeC {\~a}o}{19}{subsubsection*.65}% 
+\contentsline {chapter}{Ap\^endice\ B: Testes de alinhamento de listas}{20}{appendix*.67}% 
+\contentsline {section}{\numberline {B.1}Outra Subse\IeC {\c c}\IeC {\~a}o}{20}{section.68}% 
+\contentsfinish 
