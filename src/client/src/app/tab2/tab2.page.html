@@ -1,9 +1,22 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ask Things!
+      Ask Anything!
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <form>
+    <ion-item>
+      <ion-textarea 
+        required=true
+        autofocus=true
+        maxlength=340 
+        minlength=5
+        rows=15 
+        placeholder="Enter more information here..."></ion-textarea>
+    </ion-item>
+    <ion-button shape="round" type="submit">Ask</ion-button>
+  </form>
+</ion-content>
