@@ -47,6 +47,15 @@ const routes: Routes = [
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
+      },
+      {
+        path: 'reply',
+        children: [
+          {
+            path: '',
+            loadChildren: './reply/reply.module#ReplyPageModule',
+          }
+        ]
       }
     ]
   },

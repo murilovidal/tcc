@@ -8,7 +8,7 @@
 
 <ion-content>
     <ion-card *ngFor="let question of questions">
-      <ion-card-content>
+      <ion-card-content (click)="reply(question)">
         <p>{{question}}</p>
       </ion-card-content>
     </ion-card>
