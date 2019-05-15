@@ -8,17 +8,16 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ReplyPage implements OnInit {
 
-  public data: any;
+  public question: any;
 
   constructor(private route: ActivatedRoute, private router: Router) {
     this.route.queryParams.subscribe(params => {
       if (this.router.getCurrentNavigation().extras.state) {
-        this.data = this.router.getCurrentNavigation().extras.state.question;
+        this.question = this.router.getCurrentNavigation().extras.state.question;
       }
     });
    }
 
   ngOnInit() {
-    console.log(this.data);
   }
 }
