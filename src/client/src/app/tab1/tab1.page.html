@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Latest
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngFor="let question of questions">
+      <ion-card-content (click)="reply(question)">
+        <p>{{question}}</p>
+      </ion-card-content>
+    </ion-card>
+</ion-content>

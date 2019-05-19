@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>reply</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="textarea-container">
+    <ion-card>
+      <ion-card-content>
+        <p>{{question}}</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-content>
+        <form>
+          <ion-textarea 
+            required=true
+            autofocus=true
+            maxlength=340 
+            minlength=5
+            rows=15 
+            placeholder="Type your answer here...">
+          </ion-textarea>
+        </form>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

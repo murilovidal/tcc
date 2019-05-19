@@ -1,0 +1,149 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thin Sectioned Essay
+% LaTeX Template
+% Version 1.0 (3/8/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original Author:
+% Nicolas Diaz (nsdiaz@uc.cl) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, 11pt]{article} % Font size (can be 10pt, 11pt or 12pt) and paper size (remove a4paper for US letter paper)
+
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{graphicx} % Required for including pictures
+\usepackage{wrapfig} % Allows in-line images
+
+\usepackage{mathpazo} % Use the Palatino font
+
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % Required for accented characters
+
+% graph libs
+\usepackage{tikz}
+
+
+\linespread{1.05} % Change line spacing here, Palatino benefits from a slight increase by default
+
+\makeatletter
+\renewcommand\@biblabel[1]{\textbf{#1.}} % Change the square brackets for each bibliography item from '[1]' to '1.'
+\renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
+
+\renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
+\begin{flushright} % Right align
+{\LARGE\@title} % Increase the font size of the title
+
+\vspace{50pt} % Some vertical space between the title and author name
+
+{\large\@author} % Author name
+\\\@date % Date
+
+\vspace{40pt} % Some vertical space between the author block and abstract
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\title{Determinação do peso das arestas de um grafo\\Uma aplicação prática}\\ % Title
+
+\author{\textsc{Felipe Amorim} % Author
+\\{\textit{Universidade Federal do Paraná}}} % Institution
+
+\date{\today} % Date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title section
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT AND KEYWORDS
+%----------------------------------------------------------------------------------------
+
+%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
+
+%\begin{abstract}
+%Morbi tempor congue porta. Proin semper, leo vitae faucibus dictum, metus mauris lacinia lorem, ac congue leo felis eu turpis. Sed nec nunc pellentesque, gravida eros at, porttitor ipsum. Praesent consequat urna a lacus lobortis ultrices eget ac metus. In tempus hendrerit rhoncus. Mauris dignissim turpis id sollicitudin lacinia. Praesent libero tellus, fringilla nec ullamcorper at, ultrices id nulla. Phasellus placerat a tellus a malesuada.
+%\end{abstract}
+
+%\hspace*{3,6mm}\textit{Keywords:} lorem , ipsum , dolor , sit amet , lectus % Keywords
+
+%\vspace{30pt} % Some vertical space between the abstract and first section
+
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+
+\section*{O Contexto e Exemplo Prático}
+
+Inicialmente, o problema consiste em uma aplicação cujo o objetivo é formar relações entre pessoas, de forma que elas conheçam outras pessoas através de uma dinâmica de perguntas e respostas, possibilitando a formação de amigos ou até de casais. Para isso a aplicação inicialmente aplica um questionário simples ao usuário de forma a obter alguma informação sobre ele. Essas perguntas são do tipo:
+
+\begin{itemize}
+  \item Você prefere verão ou inverno?
+  \item No geral você prefere sair e se divertir com amigos ou ficar em casa vendo séries, jogando vídeo game, etc?
+  \item Você gosta mais de gatos ou de cachorros?
+\end{itemize}
+
+Assim, quando o usuário $A$ terminar de responder o questionário, o sistema irá comparar as respostas desse usuário com a de outros usuários da rede e tentará classificá-lo de acordo com a similaridade entre eles. Imaginamos até o momento que uma boa abstração e estrutura de dados para representar essa situação seja um grafo não direcionado com um peso $k$ nas arestas que representa o grau de similaridade entre dois usuários (quanto maior o $k$ maior é a similaridade entre as respostas do questionário entre dois usuários) conforme a ilustração ao lado. 
+\begin{tikzpicture}
+    \node[shape=circle,draw=black] (A) at (0,0) {A};
+    \node[shape=circle,draw=black] (B) at (0,3) {B};
+    \node[shape=circle,draw=black] (C) at (2.5,4) {C};
+    \node[shape=circle,draw=black] (D) at (2.5,1) {D};
+    \node[shape=circle,draw=black] (E) at (2.5,-3) {E};
+    \node[shape=circle,draw=black] (F) at (5,3) {F} ;
+
+    \path [-](A) edge node[left] {$5$} (B);
+    \path [-](B) edge node[left] {$3$} (C);
+    \path [-](D) edge node[left] {$3$} (C);
+    \path [-](A) edge node[right] {$3$} (E);
+    \path [-](C) edge node[top] {$5$} (F);
+    \path [-](E) edge node[right] {$8$} (F);   
+\end{tikzpicture}
+
+Na figura, o usuário $A$ está ligado ao usuário $B$ com uma similaridade igual a 5 e ligado a $E$ com uma similaridade menor, igual a 3. O usuário $A$ não aparece ligado a $D$ aqui porque não houve nenhuma resposta comum entre $A$ e $D$ e portanto seu $k$ é igual a zero, por isso não representamos uma aresta no grafo.
+
+Nesse exemplo prático, essa seria a situação da rede de usuários no instante em que o usuário termina de responder o questionário. Porém, logo após concluir esse processo, o sistema apresenta um feed para o usuário $A$ contendo uma série de perguntas que os outros usuários que estão ligados a ele estão fazendo. O nosso usuário do exemplo pode então selecionar uma das perguntas do seu feed e respondê-la. No momento em que ele responder, o usuário que criou aquela pergunta e a disponibilizou na rede poderá visualizar a resposta vinda de $A$ através de uma outra tela na aplicação, ou um outro feed de respostas. O ponto é que, até esse momento nenhum usuário sabe a real identidade dos outros usuários na rede. Sendo assim, uma pessoa pode perguntar na rede quem prefere um estilo de filme ao invés de outro, quais são as opiniões delas sobre um determinado assunto e por aí vai. Conforme os outros usuários forem respondendo as questões, o criador poderá avaliar essas respostas e decidir se elas são adequadas ou não.
+
+Uma nota importante sobre o feed de perguntas: num cenário de muitos usuários, ficaria impraticável que todos recebam perguntas em seus feeds o tempo todo e de muitas pessoas porque isso pode gerar muito tráfego na rede. Sendo assim, é possível priorizar as perguntas que aparecem no feed e dizer que elas, por exemplo, só serão enviadas a um determinado usuário se o $k$ for suficientemente grande. Isso garante que o usuário receberá perguntas de pessoas que potencialmente são mais parecidas com ele e diminui a quantidade de informação trafegada, tornando o feed um pouco mais seletivo.
+
+Suponha agora que $A$ recebeu em seu feed uma pergunta do usuário $B$ (mas ele não sabe quem é $B$, apenas sabe que existe uma pergunta a ser respondida caso ele o queira). $B$ quer saber, por exemplo, quem gosta da cor azul e essa é justamente a cor favorita de $A$. Então $A$ responde dizendo que sim, gosta da cor azul. Nesse momento $B$ visualiza a resposta de $A$, fica satisfeito e marca a resposta como adequada. Nesse instante o peso $k$ da aresta entre $A$ e $B$ no grafo aumenta, digamos para 6. Assim, se considerarmos que o feed prioriza questões vindas de usuários onde o $k$ é maior, agora há uma chance maior de $A$ receber mais uma pergunta de $B$ e vice versa. Conforme essa interação vai acontecendo, num ato contínuo, esperamos que num determinado momento $A$ e $B$ tenham um $k$ suficientemente alto a ponto de considerarmos que eles deveriam se conhecer e formar uma amizade (nesse momento a aplicação pode avisar-los disso e abrir uma janela de chat onde os dois podem conversar livremente, trocar telefones e tudo mais).
+
+%------------------------------------------------
+
+\section*{O Cálculo de k}
+
+Ainda não temos definido exatamente como será o cálculo do peso da aresta do grafo de usuários, apenas que existem alguns fatores a serem considerados, como talvez o número de usuários na rede e certamente a quantidade de perguntas trocadas entre dois usuários. Pode-se assumir até o momento que teríamos algo parecido com a relação abaixo.
+
+\[ k(A,B) = 1 - \bigg|\frac{R_A}{P_B}\ - \frac{R_B}{P_A}\bigg|\]
+
+Onde $k(A,B)$ representa o grau de similaridade entre $A$ e $B$, $P_A$ e $R_A$ a quantidade de perguntas que $A$ fez na rede e que chegaram até $B$ e a quantidade de respostas adequadas que $A$ forneceu para $B$, respectivamente. Da mesma forma, $P_B$ representa a quantidade de perguntas que $B$ enviou para $A$ e $R_B$ a quantidade de respostas que $B$ forneceu e que $A$ considerou como adequadas.
+
+Então se supormos alguns valores para essa relação, como $R_A = 7$, $P_A=10$, $R_B = 1$ e $P_B = 10$, teríamos:
+
+\[ k(A,B) = 1 - \bigg|\frac{7}{10}\ - \frac{1}{10}\bigg| = 0.4\]
+
+Logo, poderíamos estabelecer um limiar, onde a partir de um $k$ maior que $0.7$, por exemplo, a relação entre $A$ e $B$ seria consolidada e surgiria a janela de chat para que eles possam conversar diretamente.
+
+%------------------------------------------------
+
+\section*{Considerações Finais}
+
+O cálculo de $k$ é o trabalho em si. Uma vez que ele seja determinado o restante será simples porque apenas precisaríamos construir a aplicação. 
+
+\end{document}
