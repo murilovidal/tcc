@@ -1,26 +1,31 @@
 \begin{thebibliography}{}
 
-\bibitem[Goossens et~al., 1993]{goossens93}
-Goossens, M., Mittelbach, F.  e Samarin, A. (1993).
-\newblock {\em The \LaTeX\ Companion}.
-\newblock Addison-Wesley.
+\bibitem[KEMP, 2018]{wearesocial18}
+KEMP, S. (2018).
+\newblock Global digital report 2018.
+\newblock
+  \url{https://wearesocial.com/blog/2018/01/global-digital-report-2018}.
+\newblock Acessado em 15/05/2019.
 
-\bibitem[Maziero, 2015]{maziero15}
-Maziero, C. (2015).
-\newblock Modelo {PPGInf UFPR} para teses e dissertações.
-\newblock \url{http://www.inf.ufpr.br/maziero}.
-\newblock Acessado em 30/11/2015.
+\bibitem[MARTELETO, 2001]{Marteleto01}
+MARTELETO, R.~M. (2001).
+\newblock Análise de redes sociais - aplicação nos estudos de tranferência
+  da informação.
+\newblock {\em Ci. Inf.}, 30(1):71--78.
 
-\bibitem[Oetiker et~al., 2007]{oetiker07}
-Oetiker, T., Partl, H., Hyna, I.  e Schlegl, E. (2007).
-\newblock {\em The Not So Short Introduction to \LaTeXe{}}.
-\newblock \url{http://www.ctan.org/tex-archive/info/lshort}.
+\bibitem[MISHRA, 2019]{Mishra2019}
+MISHRA, A. (2019).
+\newblock Finding nearest neighbors in graphs locally.
+\newblock {\em arXiv e-prints}.
 
-\bibitem[UFPR, 2015]{bibufpr15}
-UFPR, B. (2015).
-\newblock Manual de normaliza\c{c}\~ao de documentos cient\'ificos de acordo
-  com as normas da {ABNT}.
-\newblock Relat\'orio T\'ecnico ISBN 9788584800025, Sistema de Bibliotecas --
-  Universidade Federal do Paran\'a, Curitiba PR.
+\bibitem[PATERSON e YAO, 1992]{Paterson1992}
+PATERSON, M.~S. e YAO, F.~F. (1992).
+\newblock On nearest-neighbor graphs.
+\newblock {\em Springer LNCS}, 623(1):416–426.
+
+\bibitem[SHAMS e HARATIZADEH, 2016]{Bita2016}
+SHAMS, B. e HARATIZADEH, S. (2016).
+\newblock Graph-based collaborative ranking.
+\newblock {\em Expert Systems with Applications}, 67.
 
 \end{thebibliography}

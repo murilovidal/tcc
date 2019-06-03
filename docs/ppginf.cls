@@ -84,7 +84,7 @@
 % nomes dos capítulos/seções/campos/etc em inglês e português
 \iflanguage{brazilian}
 {
-  \def\@listacronyms{Lista de acr\^onimos}
+  \def\@listacronyms{Lista de Abrevia\c{c}\~oes}
   \def\@listsymbols{Lista de S\'imbolos}
   \def\@chapthanks{Agradecimentos}
   \def\@tagappendix{Ap\^endice}

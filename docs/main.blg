@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: 0-iniciais/catalografica.aux
@@ -11,48 +11,51 @@ A level-1 auxiliary file: 0-iniciais/acronimos.aux
 A level-1 auxiliary file: 0-iniciais/simbolos.aux
 A level-1 auxiliary file: 1-intro/texto.aux
 A level-1 auxiliary file: 2-fundam/texto.aux
+A level-1 auxiliary file: 3-metodologia/texto.aux
+A level-1 auxiliary file: 4-produto/texto.aux
+A level-1 auxiliary file: 5-conclusao/texto.aux
 The style file: apalike-ptbr.bst
 A level-1 auxiliary file: a1-exemplo/texto.aux
 A level-1 auxiliary file: a2-exemplo/texto.aux
 Database file #1: referencias.bib
-You've used 4 entries,
+You've used 5 entries,
             1935 wiz_defined-function locations,
-            509 strings with 4592 characters,
-and the built_in function-call counts, 1264 in all, are:
-= -- 118
-> -- 55
-< -- 3
-+ -- 22
-- -- 18
-* -- 92
-:= -- 244
-add.period$ -- 13
-call.type$ -- 4
-change.case$ -- 27
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 50
-empty$ -- 80
-format.name$ -- 22
-if$ -- 234
+            525 strings with 4673 characters,
+and the built_in function-call counts, 1600 in all, are:
+= -- 158
+> -- 47
+< -- 5
++ -- 14
+- -- 14
+* -- 122
+:= -- 297
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 32
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 64
+empty$ -- 116
+format.name$ -- 23
+if$ -- 307
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 4
-newline$ -- 24
-num.names$ -- 12
-pop$ -- 28
+newline$ -- 29
+num.names$ -- 15
+pop$ -- 18
 preamble$ -- 1
-purify$ -- 29
+purify$ -- 32
 quote$ -- 0
-skip$ -- 37
+skip$ -- 55
 stack$ -- 0
-substring$ -- 52
-swap$ -- 3
-text.length$ -- 1
+substring$ -- 102
+swap$ -- 4
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
+type$ -- 30
 warning$ -- 0
-while$ -- 8
+while$ -- 12
 width$ -- 0
-write$ -- 54
+write$ -- 67
