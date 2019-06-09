@@ -5,8 +5,27 @@
 \select@language {brazilian}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Um grafo com 5 n\IeC {\'o}s e 6 arestas.\relax }}{13}{figure.caption.16}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Um grafo com 5 n\IeC {\'o}s e 6 arestas.\relax }}{16}{figure.caption.19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Duas representa\IeC {\c c}\IeC {\~o}es de um grafo n\IeC {\~a}o direcionado. (\textbf {a}) Um grafo G com cinco n\IeC {\'o}s e sete arestas. (\textbf {b}) A representa\IeC {\c c}\IeC {\~a}o de uma lista de adjac\IeC {\^e}ncia de G. (\textbf {c}) A representa\IeC {\c c}\IeC {\~a}o de uma matriz de adjac\IeC {\^e}ncia. Fonte: \cite {Cormen2009}, tradu\IeC {\c c}\IeC {\~a}o dos autores.\relax }}{17}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Duas representa\IeC {\c c}\IeC {\~o}es de um grafo direcionado. (\textbf {a}) Um grafo G com seis n\IeC {\'o}s e oito arestas. (\textbf {b}) A representa\IeC {\c c}\IeC {\~a}o de uma lista de adjac\IeC {\^e}ncia de G. (\textbf {c}) A representa\IeC {\c c}\IeC {\~a}o de uma matriz de adjac\IeC {\^e}ncia. Fonte: \cite {Cormen2009}, tradu\IeC {\c c}\IeC {\~a}o dos autores.\relax }}{17}{figure.caption.21}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Tela de cria\IeC {\c c}\IeC {\~a}o de perguntas do MVP. Fonte: os autores.\relax }}{19}{figure.caption.24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tela de visualiza\IeC {\c c}\IeC {\~a}o de perguntas do MVP. Nesta tela \IeC {\'e} poss\IeC {\'\i }vel escolher uma pergunta para ser respondida. Fonte: os autores.\relax }}{20}{figure.caption.25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Tela de visualiza\IeC {\c c}\IeC {\~a}o de respostas recebidas do MVP. Nesta tela \IeC {\'e} poss\IeC {\'\i }vel marcar perguntas favoritas. Fonte: os autores.\relax }}{20}{figure.caption.26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Visualiza\IeC {\c c}\IeC {\~a}o do grafo que representa as liga\IeC {\c c}\IeC {\~o}es entre usu\IeC {\'a}rios da rede social no MVP. Fonte: os autores.\relax }}{21}{figure.caption.27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Arquitetura do software. Fonte: os autores.\relax }}{22}{figure.caption.29}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagrama de caso de uso n\IeC {\'\i }vel 1. Fonte: os autores.\relax }}{23}{figure.caption.32}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de caso de uso n\IeC {\'\i }vel 2. Fonte: os autores.\relax }}{24}{figure.caption.33}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagrama de caso de uso UC001 - Visualizar Quest\IeC {\~a}o. Fonte: os autores.\relax }}{24}{figure.caption.34}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de caso de uso UC002 - Responder Quest\IeC {\~a}o. Fonte: os autores.\relax }}{25}{figure.caption.35}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagrama de caso de uso UC003 - Visualizar Respostas. Fonte: os autores.\relax }}{25}{figure.caption.36}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagrama de caso de uso UC004 - Criar Quest\IeC {\~a}o. Fonte: os autores.\relax }}{26}{figure.caption.37}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagrama de caso de uso UC005 - Visualizar Combina\IeC {\c c}\IeC {\~o}es. Fonte: os autores.\relax }}{26}{figure.caption.38}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de classes. Fonte: os autores.\relax }}{27}{figure.caption.39}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o de $k$ se todas as perguntas postadas por $A$ forem respondidas por $B$. Fonte: os autores.\relax }}{29}{figure.caption.44}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o de $k$ se $A$ postou 50 perguntas e apenas 25 respostas de $B$ foram curtidas. Fonte: os autores.\relax }}{30}{figure.caption.45}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o de $k$ em fun\IeC {\c c}\IeC {\~a}o das respostas curtidas se $A$ e $B$ t\IeC {\^e}m poucas perguntas postadas. Ex.: menos que 10 perguntas. Fonte: os autores.\relax }}{31}{figure.caption.46}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o de $k$ em fun\IeC {\c c}\IeC {\~a}o das respostas curtidas se $A$ e $B$ t\IeC {\^e}m muitas perguntas postadas. Ex.: mais que 50 perguntas. Fonte: os autores.\relax }}{31}{figure.caption.47}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 
