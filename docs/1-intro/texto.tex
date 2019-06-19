@@ -12,17 +12,17 @@ Dentro desta dinâmica de interações cada indivíduo busca relacionamentos bas
 
 As interações dentro das redes sociais podem ser indesejadas e, muitas vezes, desagradáveis, pois, assim como nos relacionamentos presenciais, as pessoas discordam umas das outras, não tem os mesmos interesses ou simplesmente não têm afinidade alguma. Portanto, sugerir contatos ou conteúdos para os usuários é uma maneira de manter as redes interessantes e agradáveis.
 
-Este trabalho busca desenvolver uma rede social cujas interações iniciais são trocas de perguntas e respostas de maneira anônima entre os usuários. É tomado em conta o volume das perguntas e respostas trocadas e quantas delas foram apontadas como agradáveis e, a partir disso, calcula-se um nível de afinidade entre os atores. No momento que se considera que duas pessoas são suficientemente ligadas por seus interesses e interações, o software põe em contato essas pessoas com a habilitação de um mensageiro instantâneo.
+Este trabalho busca desenvolver uma rede social cujas interações iniciais são trocas de perguntas e respostas de maneira anônima entre os usuários. É tomado em conta o volume das respostas trocadas entre os usuários e quantas delas foram apontadas como agradáveis e, a partir disso, calcula-se um nível de afinidade entre os atores. No momento que se considera que duas pessoas são suficientemente ligadas por seus interesses e interações, o software põe em contato essas pessoas com a habilitação de um mensageiro instantâneo.
 
 Um grafo, não direcionado e com peso nas arestas é usado como estrutura de dados para a representação dos usuários e a similaridade entre eles. O cálculo do peso é a variável que justifica o caráter científico deste trabalho. O grafo é uma estrutura de dados na qual as unidades elementares, que são chamadas de nós,  estão ligadas entre si por arestas, cujo valor e orientação representam a conexão entre os elementos.
 
 Neste trabalho, os usuários são representados pelos nós do grafo e sua similaridade é representada pelas arestas. Essa estrutura pode ter uma vantagem sobre as outras estruturas de dados pois o cálculo uma aresta para cada vizinho para representar de similaridade tem pouca carga de processamento.
 
-A parte funcional da rede social aqui proposta, diferencia-se das redes sociais direcionadas à criação de novos relacionamentos, como o Tinder e o Happn, na qual o interesse entre os usuários é despertado, sobretudo, pela aparência, uma vez que a foto é obrigatória. O sistema aqui proposto dispensa o uso de fotos, e se posta como uma alternativa à avaliacao puramente pela aparencia dos participantes, como acontece nos sistemas citados inicialmente.
+A parte funcional da rede social aqui proposta, diferencia-se das redes sociais direcionadas à criação de novos relacionamentos, como o Tinder e o Happn, na qual o interesse entre os usuários é despertado, sobretudo, pela aparência, uma vez que a foto é obrigatória. O sistema aqui proposto dispensa o uso de fotos, e se posta como uma alternativa à avaliação puramente pela aparência dos participantes, como acontece nos sistemas citados inicialmente.
 
 A proposta desta rede social é criar novos relacionamentos entre os usuários a partir da afinidade entre eles, permitindo que usuários se conheçam a partir de interesses comuns.
 
-A expressão anônima dos interesses do usuário pelo uso das perguntas possibilita uma interação franca e direcionada à interação. Perguntas elaboradas sem critério ou sensibilidade terão poucas respostas e o usuário não será bem sucedido na busca por um novo contato. Como toda rede social, o histórico das interações pode gerar dados importantes para pesquisa sociológica. A mecânica singular e simplificada das interações geradas com o uso software ???? pode dar luz à aspectos diferenciados da natureza humana.
+A expressão anônima dos interesses do usuário pelo uso das perguntas possibilita uma interação franca e direcionada à interação. Perguntas elaboradas sem critério ou sensibilidade terão poucas respostas e o usuário não será bem sucedido na busca por um novo contato. Como toda rede social, o histórico das interações pode gerar dados importantes para pesquisa sociológica. A mecânica singular e simplificada das interações geradas com o uso software pode dar luz à aspectos diferenciados da natureza humana.
 
 A eficiência do cálculo de vizinho mais próximo a partir de grafos já foi citada por \cite{Paterson1992} nas aplicações de geometria computacional e na simulação física. \cite{Mishra2019}, propõe um algoritmo para calcular o vizinho mais próximo em um grafo sem visitar todos os nós, corroborando a versatilidade dessa estrutura de dados quando o volume de dados é consideravelmente grande.
 
@@ -33,19 +33,42 @@ Este trabalho busca um método eficiente de sugerir contatos dentro da rede soci
 
 O software foi desenvolvido utilizando o Modelo em Cascata com a produção de um produto mínimo viável durante o levantamento dos requisitos. O desenvolvimento foi planejado levando em conta as habilidades dos desenvolvedores e o tempo necessário para adquirir competência nas ferramentas e linguagens de programação envolvidas. O \emph{front-end} foi desenvolvido primeiro por representar o maior volume de trabalho comparativamente às competências dos desenvolvedores.
 
-Foi utilizado o \emph{framework} Ionic para desenvolvimento de aplicativo. O apelo do Ionic reside no fato de ser uma SDK de código aberto com capacidade multiplataforma. O software escrito com base no \emph{framework} Ionic tem capacidade de ser utilizado em vários navegadores, no sistema operacional \emph{Android} e no \emph{IOS}.
+Foi utilizado o \emph{framework} Ionic para desenvolvimento de aplicativo. O apelo do Ionic reside no fato de ser uma SDK de código aberto com capacidade multiplataforma. O software escrito com base no \emph{framework} Ionic tem capacidade de ser utilizado em vários navegadores, no sistema operacional \emph{Android} e no \emph{IOS}. Além destas facilidades, a curva de aprendizado para o Ionic é consideravelmente íngreme, o que é atrativo considerando a falta de experiência dos desenvolvedores.
 
-Para a avaliação do cálculo da aresta do grafo, foram carregados valores fictícios e a função foi testada analiticamente. Simulações de volume de perguntas e respostas são comparadas ao número de arestas do grafo e os seus respectivos pesos. A média do peso das arestas dentro da simulação foi considerado para obter um valor mínimo adequado para criar as conexões entre os usuários.
+Para a avaliação do cálculo da aresta do grafo, foram carregados valores fictícios e a função foi testada analiticamente. Simulações de volume de perguntas e respostas são comparadas ao número de arestas do grafo e os seus respectivos pesos. A média do peso das arestas dentro da simulação foi considerada para obter um valor mínimo adequado para criar as conexões entre os usuários.
 
-Este trabalho foi estruturado em três parte:.
+\section{Objetivo Geral}
+%Objetivos Específicos (não confundir com requisitos do sistema. Objetivos específicos são as etapas/tarefas a serem lcançadas para a conclusão do objetivo geral)   e Justificativa. A justificativa pode ser uma pequena repetição dos  argumentos já escritos anteriormente. Acredito que a banca está acostumada a ver esses itens separados no texto;
+O propósito deste trabalho é desenvolver uma rede social na qual os usuários possam se relacionar a partir de um painel de perguntas geradas pela comunidade e, conforme eles vão respondendo e avaliando  as respostas, vão sendo aproximados de outros usuários até o momento em que são postos diretamente em contato pelo uso de um mensageiro instantâneo.
+
+Uma parte significativa deste objetivo é o algoritmo que vai sugerir novos contatos para os usuários. Espera-se encontrar uma solução que demande uma carga modesta de processamento e seja simples o suficiente para ser executada várias vezes em uma rede de milhares de usuários.
+
+\section{Objetivos Específicos}
+
+Desenvolver uma rede social para acesso em equipamentos móveis, na qual os usuários criem perguntas, leiam e respondam as perguntas dos outros usuários e, finalmente, leiam e avaliem as respostas que receberam dos outros usuários.
+
+A partir desta interação, os utilizadores receberão propostas de contato com os outros integrantes do sistema a partir de um mensageiro instantâneo.
+
+Buscamos uma solução eficiente e leve para calcular a similaridade entre os usuários. Espera-se poder propor contatos rapidamente mesmo com o crescimento da rede.
+
+
+\section{Justificativa}
+
+Redes sociais são ambientes muito heterogêneos e, apesar de haver muito valor na exposição dos usuários à diferentes conteúdos ou pessoas, isso pode causar desconforto e tornar a experiência do usuário desgastante. Por isso a proposta deste trabalho busca criar relacionamentos a partir de interesses e tem em sua estrutura a capacidade de manter o usuário em um ambiente de similares, de maneira que o uso seja mais prazeroso.
+
+
+Uma solução determinística para o cálculo de similaridade entre usuários de uma rede social teria a uma vantagem inegável no desempenho uma vez que as soluções alternativas relacionadas à recomendação e classificação envolvem, muitas vezes, inteligência artificial ou aprendizado de máquina, que são sistemas que demandam uma capacidade considerável de processamento.
+
+Este trabalho foi estruturado em três partes:
 \begin{itemize}
 
 \item \verb#Fundamentação Teórica#: Nesta seção, visitamos os principais autores e documentos relacionados à redes sociais, algoritmos de classificação e de sugestão e grafos.
 
-\item \verb#Metodologia de Desenvolvimento#: Nesta seção, é exposto o método de desenvolvimento do software e a análise feita para otimizar a função que calcula a aresta do grafo que representa as conexões entre os usuários.
+\item \verb#Materiais e Métodos#: Nesta seção, são expostos o método de desenvolvimento do software e a análise feita para otimizar a função que calcula a aresta do grafo que representa as conexões entre os usuários.
 
-\item \verb#Apresentação dos resultados#: Telas e funcionalidades do produto final.
+\item \verb#Apresentação do Sistema#: Telas e funcionalidades do produto final.
+
+\item \verb#Considerações Finais#
+
 \end{itemize}
-
-
 %=====================================================

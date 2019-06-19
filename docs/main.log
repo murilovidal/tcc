@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.5.30)  9 JUN 2019 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.5.30)  18 JUN 2019 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,7 +1208,8 @@ Package: placeins 2005/04/18  v 2.2
 (./0-iniciais/dedica.aux) (./0-iniciais/agradece.aux) (./0-iniciais/resumo.aux)
 (./0-iniciais/abstract.aux) (./0-iniciais/acronimos.aux)
 (./0-iniciais/simbolos.aux) (./1-intro/texto.aux) (./2-fundam/texto.aux)
-(./3-metodologia/texto.aux) (./4-produto/texto.aux) (./5-conclusao/texto.aux))
+(./3-metodologia/texto.aux) (./4-produto/texto.aux) (./5-conclusao/texto.aux)
+(./a2-casosdeuso/texto.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 37.
@@ -1476,102 +1477,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
-LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 3
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxsups.fd
-File: t1ntxsups.fd 2015/01/17 v1.0
-)
-LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 12.0pt on input line 3.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `ntxsups' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-Package microtype Info: Character `textendash ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textemdash ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textquotedblleft ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textquotedblright ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `AE ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `quotesinglbase ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `quotedblbase ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guillemotleft ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guillemotright ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textexclamdown ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textquestiondown ' is missing
-(microtype)             in font `T1/ntxsups/m/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
-LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
-Package microtype Info: Character `textendash ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textemdash ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textquotedblleft ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textquotedblright ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `AE ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `quotesinglbase ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `quotedblbase ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guillemotleft ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guillemotright ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textexclamdown ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textquestiondown ' is missing
-(microtype)             in font `T1/ntxsups/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 6.
  [2
 
 
@@ -1590,23 +1497,23 @@ Package babel Info: Redefining portuges shorthand "|
 
 (./0-iniciais/abstract.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 6.
  [3
 
 
 
 
-]) (./main.lof)
-\tf@lof=\write3
-\openout3 = `main.lof'.
-
+]) (./main.lof
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 29.
  [4
 
 
 
-]
+])
+\tf@lof=\write3
+\openout3 = `main.lof'.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 140.
  [5] (./main.lot)
@@ -1624,7 +1531,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 (./0-iniciais/acronimos.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
  [7
 
 
@@ -1665,20 +1572,31 @@ Package babel Info: Redefining portuges shorthand "|
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
  [11]
-LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 4
-3.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 40.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 62.
+ [12]
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 6
+5.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 43.
+(Font)              scaled to size 12.0pt on input line 65.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `ntxtlf' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 43.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1690,7 +1608,7 @@ Package microtype Info: Loading generic settings for font family
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 155.
- [12]
+ [13]
 \openout2 = `2-fundam/texto.aux'.
 
 
@@ -1698,62 +1616,62 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 8.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 26.
-[13
+(babel)             in language  on input line 29.
+[14
 
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 51.
+(babel)             in language  on input line 54.
+ [15]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 61.
- [14] <2-fundam/grafo.png, id=258, 599.23875pt x 591.71063pt>
+(babel)             in language  on input line 73.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 82.
+ [16] <2-fundam/grafo.png, id=377, 599.23875pt x 591.71063pt>
 File: 2-fundam/grafo.png Graphic file (type png)
 
 <use 2-fundam/grafo.png>
-Package pdftex.def Info: 2-fundam/grafo.png used on input line 90.
+Package pdftex.def Info: 2-fundam/grafo.png used on input line 111.
 (pdftex.def)             Requested size: 341.43306pt x 337.15216pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 112.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 102.
- [15]
-<2-fundam/represent_grafo.png, id=278, 1214.28656pt x 300.3722pt>
+(babel)             in language  on input line 123.
+ [17]
+<2-fundam/represent_grafo.png, id=395, 1214.28656pt x 300.3722pt>
 File: 2-fundam/represent_grafo.png Graphic file (type png)
 
 <use 2-fundam/represent_grafo.png>
-Package pdftex.def Info: 2-fundam/represent_grafo.png used on input line 112.
+Package pdftex.def Info: 2-fundam/represent_grafo.png used on input line 133.
 (pdftex.def)             Requested size: 455.24408pt x 112.60721pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 113.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 134.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 113.
+(Font)              scaled to size 10.0pt on input line 134.
 
-<2-fundam/represent_grafo_ND.png, id=283, 1212.78094pt x 347.04657pt>
+<2-fundam/represent_grafo_ND.png, id=400, 1212.78094pt x 347.04657pt>
 File: 2-fundam/represent_grafo_ND.png Graphic file (type png)
 
 <use 2-fundam/represent_grafo_ND.png>
-Package pdftex.def Info: 2-fundam/represent_grafo_ND.png used on input line 120
+Package pdftex.def Info: 2-fundam/represent_grafo_ND.png used on input line 141
 .
 (pdftex.def)             Requested size: 455.24408pt x 130.27452pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 133.
- [16 <./2-fundam/grafo.png (PNG copy)>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 133.
-
-[17 <./2-fundam/represent_grafo.png (PNG copy)> <./2-fundam/represent_grafo_ND.
-png (PNG copy)>])
+(babel)             in language  on input line 146.
+ [18 <./2-fundam/grafo.png (PNG copy)>])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 156.
- [18]
+
+[19 <./2-fundam/represent_grafo.png (PNG copy)> <./2-fundam/represent_grafo_ND.
+png (PNG copy)>]
 \openout2 = `3-metodologia/texto.aux'.
 
  (./3-metodologia/texto.tex
@@ -1761,226 +1679,338 @@ Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 9.
-<3-metodologia/mvpCriarQuest.png, id=308, 853.68938pt x 424.58624pt>
+(babel)             in language  on input line 11.
+<3-metodologia/cascata.png, id=419, 863.47594pt x 652.68843pt>
+File: 3-metodologia/cascata.png Graphic file (type png)
+
+<use 3-metodologia/cascata.png>
+Package pdftex.def Info: 3-metodologia/cascata.png used on input line 19.
+(pdftex.def)             Requested size: 284.52756pt x 215.06915pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 24.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 27.
+ [20
+
+
+
+ <./3-metodologia/cascata.png (PNG copy)>]
+<3-metodologia/mvpCriarQuest.png, id=428, 853.68938pt x 424.58624pt>
 File: 3-metodologia/mvpCriarQuest.png Graphic file (type png)
 
 <use 3-metodologia/mvpCriarQuest.png>
-Package pdftex.def Info: 3-metodologia/mvpCriarQuest.png used on input line 19.
+Package pdftex.def Info: 3-metodologia/mvpCriarQuest.png used on input line 30.
 
 (pdftex.def)             Requested size: 398.33858pt x 198.1173pt.
 
-<3-metodologia/mvpVerQuest.png, id=309, 874.01532pt x 540.51938pt>
+<3-metodologia/mvpVerQuest.png, id=429, 874.01532pt x 540.51938pt>
 File: 3-metodologia/mvpVerQuest.png Graphic file (type png)
 
 <use 3-metodologia/mvpVerQuest.png>
-Package pdftex.def Info: 3-metodologia/mvpVerQuest.png used on input line 26.
+Package pdftex.def Info: 3-metodologia/mvpVerQuest.png used on input line 37.
 (pdftex.def)             Requested size: 398.33858pt x 246.34908pt.
 
-<3-metodologia/mvpVerResp.png, id=310, 858.95906pt x 466.74374pt>
+<3-metodologia/mvpVerResp.png, id=430, 858.95906pt x 466.74374pt>
 File: 3-metodologia/mvpVerResp.png Graphic file (type png)
 
 <use 3-metodologia/mvpVerResp.png>
-Package pdftex.def Info: 3-metodologia/mvpVerResp.png used on input line 33.
+Package pdftex.def Info: 3-metodologia/mvpVerResp.png used on input line 44.
 (pdftex.def)             Requested size: 398.33858pt x 216.4496pt.
 
-<3-metodologia/mvpVerGrafo.png, id=311, 884.55469pt x 523.20468pt>
+<3-metodologia/mvpVerGrafo.png, id=431, 884.55469pt x 523.20468pt>
 File: 3-metodologia/mvpVerGrafo.png Graphic file (type png)
 
 <use 3-metodologia/mvpVerGrafo.png>
-Package pdftex.def Info: 3-metodologia/mvpVerGrafo.png used on input line 40.
+Package pdftex.def Info: 3-metodologia/mvpVerGrafo.png used on input line 51.
 (pdftex.def)             Requested size: 398.33858pt x 235.61555pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
- [19
-
-
-
- <./3-metodologia/mvpCriarQuest.png>]
+(babel)             in language  on input line 57.
+ [21 <./3-metodologia/mvpCriarQuest.png> <./3-metodologia/mvpVerQuest.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 65.
+ [22 <./3-metodologia/mvpVerResp.png> <./3-metodologia/mvpVerGrafo.png>]
+<3-metodologia/protperguntas.png, id=450, 401.5pt x 774.895pt>
+File: 3-metodologia/protperguntas.png Graphic file (type png)
 
-[20 <./3-metodologia/mvpVerQuest.png> <./3-metodologia/mvpVerResp.png>]
+<use 3-metodologia/protperguntas.png>
+Package pdftex.def Info: 3-metodologia/protperguntas.png used on input line 85.
+
+(pdftex.def)             Requested size: 142.26378pt x 274.5753pt.
+
+<3-metodologia/protescreverpergunta.png, id=452, 401.5pt x 774.895pt>
+File: 3-metodologia/protescreverpergunta.png Graphic file (type png)
+
+<use 3-metodologia/protescreverpergunta.png>
+Package pdftex.def Info: 3-metodologia/protescreverpergunta.png used on input l
+ine 91.
+(pdftex.def)             Requested size: 142.26378pt x 274.5753pt.
+
+<3-metodologia/protescreverresposta.png, id=453, 401.5pt x 774.895pt>
+File: 3-metodologia/protescreverresposta.png Graphic file (type png)
+
+<use 3-metodologia/protescreverresposta.png>
+Package pdftex.def Info: 3-metodologia/protescreverresposta.png used on input l
+ine 102.
+(pdftex.def)             Requested size: 142.26378pt x 274.5753pt.
+
+<3-metodologia/protrespostas.png, id=454, 401.5pt x 774.895pt>
+File: 3-metodologia/protrespostas.png Graphic file (type png)
+
+<use 3-metodologia/protrespostas.png>
+Package pdftex.def Info: 3-metodologia/protrespostas.png used on input line 108
+.
+(pdftex.def)             Requested size: 142.26378pt x 274.5753pt.
+
+<3-metodologia/protconversas.png, id=455, 401.5pt x 774.895pt>
+File: 3-metodologia/protconversas.png Graphic file (type png)
+
+<use 3-metodologia/protconversas.png>
+Package pdftex.def Info: 3-metodologia/protconversas.png used on input line 118
+.
+(pdftex.def)             Requested size: 142.26378pt x 274.5753pt.
+
+<3-metodologia/prot_chat.png, id=456, 401.5pt x 774.895pt>
+File: 3-metodologia/prot_chat.png Graphic file (type png)
+
+<use 3-metodologia/prot_chat.png>
+Package pdftex.def Info: 3-metodologia/prot_chat.png used on input line 124.
+(pdftex.def)             Requested size: 142.26378pt x 274.5753pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
-
-[21 <./3-metodologia/mvpVerGrafo.png>]
+(babel)             in language  on input line 130.
+ [23]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 51.
-
-<3-metodologia/arquitetura.png, id=326, 321.2pt x 377.41pt>
+(babel)             in language  on input line 130.
+ [24 <./3-metodologia/protperguntas.png> <./3-metodologia/protescreverpergunta.
+png> <./3-metodologia/protescreverresposta.png> <./3-metodologia/protrespostas.
+png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 166.
+ [25 <./3-metodologia/protconversas.png> <./3-metodologia/prot_chat.png>]
+<3-metodologia/arquitetura.png, id=490, 840.13875pt x 503.63156pt>
 File: 3-metodologia/arquitetura.png Graphic file (type png)
 
 <use 3-metodologia/arquitetura.png>
-Package pdftex.def Info: 3-metodologia/arquitetura.png used on input line 63.
-(pdftex.def)             Requested size: 398.33858pt x 468.06418pt.
+Package pdftex.def Info: 3-metodologia/arquitetura.png used on input line 170.
+(pdftex.def)             Requested size: 398.33858pt x 238.78944pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 75.
- [22
-
- <./3-metodologia/arquitetura.png>]
+(babel)             in language  on input line 190.
+ [26 <./3-metodologia/arquitetura.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 216.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 220.
 
-<3-metodologia/DCU1.png, id=333, 650.43pt x 463.7325pt>
-File: 3-metodologia/DCU1.png Graphic file (type png)
-
-<use 3-metodologia/DCU1.png>
-Package pdftex.def Info: 3-metodologia/DCU1.png used on input line 97.
-(pdftex.def)             Requested size: 455.24408pt x 324.58221pt.
-
-<3-metodologia/DCU2.png, id=335, 772.8875pt x 594.22pt>
-File: 3-metodologia/DCU2.png Graphic file (type png)
-
-<use 3-metodologia/DCU2.png>
-Package pdftex.def Info: 3-metodologia/DCU2.png used on input line 104.
-(pdftex.def)             Requested size: 455.24408pt x 350.00647pt.
-
-<3-metodologia/UC001-VisualizarQuestao.png, id=336, 647.41875pt x 406.51875pt>
-File: 3-metodologia/UC001-VisualizarQuestao.png Graphic file (type png)
-
-<use 3-metodologia/UC001-VisualizarQuestao.png>
-Package pdftex.def Info: 3-metodologia/UC001-VisualizarQuestao.png used on inpu
-t line 114.
-(pdftex.def)             Requested size: 455.24408pt x 285.8514pt.
-
-<3-metodologia/UC002-ResponderQuestao.png, id=337, 647.41875pt x 429.605pt>
-File: 3-metodologia/UC002-ResponderQuestao.png Graphic file (type png)
-
-<use 3-metodologia/UC002-ResponderQuestao.png>
-Package pdftex.def Info: 3-metodologia/UC002-ResponderQuestao.png used on input
- line 121.
-(pdftex.def)             Requested size: 455.24408pt x 302.08493pt.
-
-<3-metodologia/UC003-VisualizarRespostas.png, id=338, 647.41875pt x 453.695pt>
-File: 3-metodologia/UC003-VisualizarRespostas.png Graphic file (type png)
-
-<use 3-metodologia/UC003-VisualizarRespostas.png>
-Package pdftex.def Info: 3-metodologia/UC003-VisualizarRespostas.png used on in
-put line 128.
-(pdftex.def)             Requested size: 455.24408pt x 319.02428pt.
-
-<3-metodologia/UC004-CriarQuestao.png, id=339, 647.41875pt x 453.695pt>
-File: 3-metodologia/UC004-CriarQuestao.png Graphic file (type png)
-
-<use 3-metodologia/UC004-CriarQuestao.png>
-Package pdftex.def Info: 3-metodologia/UC004-CriarQuestao.png used on input lin
-e 136.
-(pdftex.def)             Requested size: 455.24408pt x 319.02428pt.
-
-<3-metodologia/UC005-VisualizarCombinacoes.png, id=340, 647.41875pt x 453.695pt
->
-File: 3-metodologia/UC005-VisualizarCombinacoes.png Graphic file (type png)
- <use 3-metodologia/UC005-VisualizarCombinacoes.png>
-Package pdftex.def Info: 3-metodologia/UC005-VisualizarCombinacoes.png used on 
-input line 144.
-(pdftex.def)             Requested size: 455.24408pt x 319.02428pt.
-
-<3-metodologia/DiagramaClasse.png, id=341, 650.43pt x 647.41875pt>
+[27] <3-metodologia/DiagramaClasse.png, id=507, 707.64375pt x 699.61375pt>
 File: 3-metodologia/DiagramaClasse.png Graphic file (type png)
 
 <use 3-metodologia/DiagramaClasse.png>
-Package pdftex.def Info: 3-metodologia/DiagramaClasse.png used on input line 15
+Package pdftex.def Info: 3-metodologia/DiagramaClasse.png used on input line 22
 4.
-(pdftex.def)             Requested size: 455.24408pt x 453.15051pt.
+(pdftex.def)             Requested size: 455.24408pt x 450.07848pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
- [23 <./3-metodologia/DCU1.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
- [24 <./3-metodologia/DCU2.png> <./3-metodologia/UC001-VisualizarQuestao.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
- [25 <./3-metodologia/UC002-ResponderQuestao.png> <./3-metodologia/UC003-Visual
-izarRespostas.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
- [26 <./3-metodologia/UC004-CriarQuestao.png> <./3-metodologia/UC005-Visualizar
-Combinacoes.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
- [27 <./3-metodologia/DiagramaClasse.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 164.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 224.
- [28
+(babel)             in language  on input line 230.
+ [28 <./3-metodologia/DiagramaClasse.png>] <3-metodologia/diagrama_bd.png, id=5
+14, 865.73438pt x 758.08218pt>
+File: 3-metodologia/diagrama_bd.png Graphic file (type png)
 
-]
-<3-metodologia/grafico_k1.png, id=380, 462.528pt x 346.896pt>
+<use 3-metodologia/diagrama_bd.png>
+Package pdftex.def Info: 3-metodologia/diagrama_bd.png used on input line 233.
+(pdftex.def)             Requested size: 455.24408pt x 398.63531pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 243.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 283.
+ [29 <./3-metodologia/diagrama_bd.png (PNG copy)>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 305.
+ [30] <3-metodologia/grafico_k1.png, id=529, 462.528pt x 346.896pt>
 File: 3-metodologia/grafico_k1.png Graphic file (type png)
 
 <use 3-metodologia/grafico_k1.png>
-Package pdftex.def Info: 3-metodologia/grafico_k1.png used on input line 228.
+Package pdftex.def Info: 3-metodologia/grafico_k1.png used on input line 309.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 229.
+(Font)              scaled to size 10.0pt on input line 310.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 229.
+(Font)              scaled to size 7.3pt on input line 310.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 229.
+(Font)              scaled to size 5.5pt on input line 310.
 
-<3-metodologia/grafico_k2.png, id=382, 462.528pt x 346.896pt>
+<3-metodologia/grafico_k2.png, id=531, 462.528pt x 346.896pt>
 File: 3-metodologia/grafico_k2.png Graphic file (type png)
 
 <use 3-metodologia/grafico_k2.png>
-Package pdftex.def Info: 3-metodologia/grafico_k2.png used on input line 237.
+Package pdftex.def Info: 3-metodologia/grafico_k2.png used on input line 318.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
-
-
-LaTeX Warning: Reference `fig:poucasquest\IeC {\~o}es' on page 29 undefined on 
-input line 246.
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 247.
-[29 <./3-metodologia/grafico_k1.png>]
-<3-metodologia/poucasquestoes.png, id=389, 462.528pt x 346.896pt>
+(babel)             in language  on input line 328.
+ [31 <./3-metodologia/grafico_k1.png>]
+<3-metodologia/poucasquestoes.png, id=540, 462.528pt x 346.896pt>
 File: 3-metodologia/poucasquestoes.png Graphic file (type png)
 
 <use 3-metodologia/poucasquestoes.png>
-Package pdftex.def Info: 3-metodologia/poucasquestoes.png used on input line 25
-0.
+Package pdftex.def Info: 3-metodologia/poucasquestoes.png used on input line 33
+1.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
 
-<3-metodologia/muitasquestoes.png, id=392, 462.528pt x 346.896pt>
+<3-metodologia/muitasquestoes.png, id=543, 462.528pt x 346.896pt>
 File: 3-metodologia/muitasquestoes.png Graphic file (type png)
 
 <use 3-metodologia/muitasquestoes.png>
-Package pdftex.def Info: 3-metodologia/muitasquestoes.png used on input line 25
-9.
+Package pdftex.def Info: 3-metodologia/muitasquestoes.png used on input line 34
+0.
 (pdftex.def)             Requested size: 398.33858pt x 298.76936pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 271.
- [30 <./3-metodologia/grafico_k2.png>]
+(babel)             in language  on input line 352.
+ [32 <./3-metodologia/grafico_k2.png>]
 
-LaTeX Warning: Text page 31 contains only floats.
+LaTeX Warning: Text page 33 contains only floats.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 271.
-[31 <./3-metodologia/poucasquestoes.png> <./3-metodologia/muitasquestoes.png>])
+(babel)             in language  on input line 352.
+[33 <./3-metodologia/poucasquestoes.png> <./3-metodologia/muitasquestoes.png>]
+<3-metodologia/matriz_k.png, id=556, 668.4975pt x 466.8642pt>
+File: 3-metodologia/matriz_k.png Graphic file (type png)
+
+<use 3-metodologia/matriz_k.png>
+Package pdftex.def Info: 3-metodologia/matriz_k.png used on input line 371.
+(pdftex.def)             Requested size: 398.33858pt x 278.19725pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 381.
+ [34]
+<3-metodologia/matriz_x.png, id=569, 690.9012pt x 492.8814pt>
+File: 3-metodologia/matriz_x.png Graphic file (type png)
+
+<use 3-metodologia/matriz_x.png>
+Package pdftex.def Info: 3-metodologia/matriz_x.png used on input line 384.
+(pdftex.def)             Requested size: 398.33858pt x 284.17923pt.
+
+<3-metodologia/matriz_x1.png, id=570, 652.5981pt x 491.436pt>
+File: 3-metodologia/matriz_x1.png Graphic file (type png)
+
+<use 3-metodologia/matriz_x1.png>
+Package pdftex.def Info: 3-metodologia/matriz_x1.png used on input line 391.
+(pdftex.def)             Requested size: 398.33858pt x 299.96298pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 412.
+ [35 <./3-metodologia/matriz_k.png>]
+
+LaTeX Warning: Text page 36 contains only floats.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 412.
+[36 <./3-metodologia/matriz_x.png> <./3-metodologia/matriz_x1.png>]
+<3-metodologia/k_ultimaeq.png, id=585, 700.2963pt x 484.9317pt>
+File: 3-metodologia/k_ultimaeq.png Graphic file (type png)
+
+<use 3-metodologia/k_ultimaeq.png>
+Package pdftex.def Info: 3-metodologia/k_ultimaeq.png used on input line 420.
+(pdftex.def)             Requested size: 398.33858pt x 275.83678pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 430.
+ [37 <./3-metodologia/k_ultimaeq.png>])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 157.
-[32]
+
+[38]
 \openout2 = `4-produto/texto.aux'.
 
  (./4-produto/texto.tex
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
+<4-produto/grafo.png, id=598, 986.18437pt x 709.90219pt>
+File: 4-produto/grafo.png Graphic file (type png)
+
+<use 4-produto/grafo.png>
+Package pdftex.def Info: 4-produto/grafo.png used on input line 10.
+(pdftex.def)             Requested size: 455.24408pt x 327.70718pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 9.
+(babel)             in language  on input line 29.
+ [39
+
+
+
+ <./4-produto/grafo.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 33.
+
+<4-produto/telalogin.png, id=605, 225.09094pt x 397.485pt>
+File: 4-produto/telalogin.png Graphic file (type png)
+
+<use 4-produto/telalogin.png>
+Package pdftex.def Info: 4-produto/telalogin.png used on input line 40.
+(pdftex.def)             Requested size: 170.71652pt x 301.47916pt.
+
+<4-produto/telaregister.png, id=606, 228.10219pt x 399.74344pt>
+File: 4-produto/telaregister.png Graphic file (type png)
+
+<use 4-produto/telaregister.png>
+Package pdftex.def Info: 4-produto/telaregister.png used on input line 46.
+(pdftex.def)             Requested size: 170.71652pt x 299.18468pt.
+
+<4-produto/telaQuestoes.png, id=609, 226.59656pt x 400.49625pt>
+File: 4-produto/telaQuestoes.png Graphic file (type png)
+
+<use 4-produto/telaQuestoes.png>
+Package pdftex.def Info: 4-produto/telaQuestoes.png used on input line 59.
+(pdftex.def)             Requested size: 170.71652pt x 301.7342pt.
+
+<4-produto/telaCriarQuest.png, id=610, 225.09094pt x 400.49625pt>
+File: 4-produto/telaCriarQuest.png Graphic file (type png)
+
+<use 4-produto/telaCriarQuest.png>
+Package pdftex.def Info: 4-produto/telaCriarQuest.png used on input line 65.
+(pdftex.def)             Requested size: 170.71652pt x 303.76309pt.
+
+<4-produto/telaResponder.png, id=613, 223.58531pt x 401.24907pt>
+File: 4-produto/telaResponder.png Graphic file (type png)
+
+<use 4-produto/telaResponder.png>
+Package pdftex.def Info: 4-produto/telaResponder.png used on input line 78.
+(pdftex.def)             Requested size: 170.71652pt x 306.37901pt.
+
+<4-produto/telaVerResp.png, id=614, 225.09094pt x 398.99063pt>
+File: 4-produto/telaVerResp.png Graphic file (type png)
+
+<use 4-produto/telaVerResp.png>
+Package pdftex.def Info: 4-produto/telaVerResp.png used on input line 84.
+(pdftex.def)             Requested size: 170.71652pt x 302.62112pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 95.
+ [40]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 95.
+ [41 <./4-produto/telalogin.png> <./4-produto/telaregister.png> <./4-produto/te
+laQuestoes.png> <./4-produto/telaCriarQuest.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 95.
+ <4-produto/telaContatos.png, id=628, 224.33812pt x 402.75468pt>
+File: 4-produto/telaContatos.png Graphic file (type png)
+
+<use 4-produto/telaContatos.png>
+Package pdftex.def Info: 4-produto/telaContatos.png used on input line 105.
+(pdftex.def)             Requested size: 170.71652pt x 306.49619pt.
+
+<4-produto/telaChat.png, id=629, 224.33812pt x 400.49625pt>
+File: 4-produto/telaChat.png Graphic file (type png)
+
+<use 4-produto/telaChat.png>
+Package pdftex.def Info: 4-produto/telaChat.png used on input line 111.
+(pdftex.def)             Requested size: 170.71652pt x 304.77753pt.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 158.
- [33
-
-
-
-]
+ [42 <./4-produto/telaResponder.png> <./4-produto/telaVerResp.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 158.
+ [43 <./4-produto/telaContatos.png> <./4-produto/telaChat.png>]
 \openout2 = `5-conclusao/texto.aux'.
 
  (./5-conclusao/texto.tex
@@ -1990,61 +2020,152 @@ Package babel Info: Redefining portuges shorthand "|
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 160.
- [34
+ [44
 
 
 
 ] (./main.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 192.
- [35
+(babel)             in language  on input line 89.
+ [45
 
 
-]
+])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 188.
+ [46]
+\openout2 = `a2-casosdeuso/texto.aux'.
+
+ (./a2-casosdeuso/texto.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
+
+<a2-casosdeuso/DCU1.png, id=662, 650.43pt x 463.7325pt>
+File: a2-casosdeuso/DCU1.png Graphic file (type png)
+
+<use a2-casosdeuso/DCU1.png>
+Package pdftex.def Info: a2-casosdeuso/DCU1.png used on input line 9.
+(pdftex.def)             Requested size: 455.24408pt x 324.58221pt.
+
+<a2-casosdeuso/DCU2.png, id=663, 772.8875pt x 594.22pt>
+File: a2-casosdeuso/DCU2.png Graphic file (type png)
+
+<use a2-casosdeuso/DCU2.png>
+Package pdftex.def Info: a2-casosdeuso/DCU2.png used on input line 16.
+(pdftex.def)             Requested size: 455.24408pt x 350.00647pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 22.
+ [47
+
+
+ <./a2-casosdeuso/DCU1.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 22.
+
+<a2-casosdeuso/UC001-VisualizarQuestao.png, id=670, 647.41875pt x 406.51875pt>
+File: a2-casosdeuso/UC001-VisualizarQuestao.png Graphic file (type png)
+
+<use a2-casosdeuso/UC001-VisualizarQuestao.png>
+Package pdftex.def Info: a2-casosdeuso/UC001-VisualizarQuestao.png used on inpu
+t line 26.
+(pdftex.def)             Requested size: 455.24408pt x 285.8514pt.
+
+<a2-casosdeuso/UC002-ResponderQuestao.png, id=671, 647.41875pt x 429.605pt>
+File: a2-casosdeuso/UC002-ResponderQuestao.png Graphic file (type png)
+
+<use a2-casosdeuso/UC002-ResponderQuestao.png>
+Package pdftex.def Info: a2-casosdeuso/UC002-ResponderQuestao.png used on input
+ line 33.
+(pdftex.def)             Requested size: 455.24408pt x 302.08493pt.
+
+<a2-casosdeuso/UC003-VisualizarRespostas.png, id=672, 647.41875pt x 453.695pt>
+File: a2-casosdeuso/UC003-VisualizarRespostas.png Graphic file (type png)
+
+<use a2-casosdeuso/UC003-VisualizarRespostas.png>
+Package pdftex.def Info: a2-casosdeuso/UC003-VisualizarRespostas.png used on in
+put line 40.
+(pdftex.def)             Requested size: 455.24408pt x 319.02428pt.
+
+<a2-casosdeuso/UC004-CriarQuestao.png, id=673, 647.41875pt x 453.695pt>
+File: a2-casosdeuso/UC004-CriarQuestao.png Graphic file (type png)
+
+<use a2-casosdeuso/UC004-CriarQuestao.png>
+Package pdftex.def Info: a2-casosdeuso/UC004-CriarQuestao.png used on input lin
+e 47.
+(pdftex.def)             Requested size: 455.24408pt x 319.02428pt.
+
+<a2-casosdeuso/UC005-VisualizarCombinacoes.png, id=674, 647.41875pt x 453.695pt
+>
+File: a2-casosdeuso/UC005-VisualizarCombinacoes.png Graphic file (type png)
+ <use a2-casosdeuso/UC005-VisualizarCombinacoes.png>
+Package pdftex.def Info: a2-casosdeuso/UC005-VisualizarCombinacoes.png used on 
+input line 54.
+(pdftex.def)             Requested size: 455.24408pt x 319.02428pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 59.
+ [48 <./a2-casosdeuso/DCU2.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 59.
+ [49 <./a2-casosdeuso/UC001-VisualizarQuestao.png> <./a2-casosdeuso/UC002-Respo
+nderQuestao.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 59.
+ [50 <./a2-casosdeuso/UC003-VisualizarRespostas.png> <./a2-casosdeuso/UC004-Cri
+arQuestao.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 59.
+ [51 <./a2-casosdeuso/UC005-VisualizarCombinacoes.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 59.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 110.
+ [52
+
+])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 188.
+ [53]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  (./main.aux (./0-iniciais/catalografica.aux)
 (./0-iniciais/aprovacao.aux) (./0-iniciais/dedica.aux)
 (./0-iniciais/agradece.aux) (./0-iniciais/resumo.aux)
 (./0-iniciais/abstract.aux) (./0-iniciais/acronimos.aux)
 (./0-iniciais/simbolos.aux) (./1-intro/texto.aux) (./2-fundam/texto.aux)
-(./3-metodologia/texto.aux) (./4-produto/texto.aux) (./5-conclusao/texto.aux))
+(./3-metodologia/texto.aux) (./4-produto/texto.aux) (./5-conclusao/texto.aux)
+(./a2-casosdeuso/texto.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 192.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
  ) 
 Here is how much of TeX's memory you used:
- 17662 strings out of 493013
- 261904 string characters out of 6135682
- 503563 words of memory out of 5000000
- 20484 multiletter control sequences out of 15000+600000
- 80216 words of font info for 172 fonts, out of 8000000 for 9000
+ 17941 strings out of 493013
+ 266990 string characters out of 6135682
+ 504147 words of memory out of 5000000
+ 20611 multiletter control sequences out of 15000+600000
+ 87099 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,15n,81p,1603b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/sh
-are/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/
-dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/ec
-.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/
-share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}</usr/share/te
-xlive/texmf-dist/fonts/type1/public/newtx/ntxsups-Regular.pfb></usr/share/texmf
-/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-
-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/newtx/rntxmi.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/uc
-rr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (35 pages, 2066788 bytes).
+ 47i,15n,81p,2352b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
+fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvi
+ps/newtx/ntx-ot1-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/n
+tx-ec-tlf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-s
+c.enc}</usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/
+fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-g
+yre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/rntxmi.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on main.pdf (53 pages, 3477406 bytes).
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
- 414 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 23781 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 897 PDF objects out of 1000 (max. 8388607)
+ 687 compressed objects within 7 object streams
+ 192 named destinations out of 1000 (max. 500000)
+ 24974 words of extra memory for PDF output out of 29859 (max. 10000000)
 

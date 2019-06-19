@@ -15,45 +15,48 @@ A level-1 auxiliary file: 3-metodologia/texto.aux
 A level-1 auxiliary file: 4-produto/texto.aux
 A level-1 auxiliary file: 5-conclusao/texto.aux
 The style file: apalike-ptbr.bst
+A level-1 auxiliary file: a2-casosdeuso/texto.aux
 Database file #1: referencias.bib
-You've used 12 entries,
+Warning--empty publisher in Recommendation
+You've used 19 entries,
             1935 wiz_defined-function locations,
-            570 strings with 5435 characters,
-and the built_in function-call counts, 3837 in all, are:
-= -- 382
-> -- 118
-< -- 11
-+ -- 46
-- -- 36
-* -- 293
-:= -- 704
-add.period$ -- 39
-call.type$ -- 12
-change.case$ -- 78
-chr.to.int$ -- 12
-cite$ -- 12
-duplicate$ -- 153
-empty$ -- 273
-format.name$ -- 54
-if$ -- 732
+            610 strings with 6434 characters,
+and the built_in function-call counts, 6393 in all, are:
+= -- 629
+> -- 253
+< -- 14
++ -- 94
+- -- 82
+* -- 502
+:= -- 1174
+add.period$ -- 61
+call.type$ -- 19
+change.case$ -- 135
+chr.to.int$ -- 19
+cite$ -- 20
+duplicate$ -- 243
+empty$ -- 419
+format.name$ -- 109
+if$ -- 1219
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 66
-num.names$ -- 36
-pop$ -- 50
+missing$ -- 16
+newline$ -- 102
+num.names$ -- 57
+pop$ -- 101
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 136
 quote$ -- 0
-skip$ -- 126
+skip$ -- 196
 stack$ -- 0
-substring$ -- 246
-swap$ -- 9
-text.length$ -- 0
+substring$ -- 367
+swap$ -- 19
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
-warning$ -- 0
-while$ -- 30
+type$ -- 106
+warning$ -- 1
+while$ -- 47
 width$ -- 0
-write$ -- 160
+write$ -- 250
+(There was 1 warning)

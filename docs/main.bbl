@@ -1,9 +1,19 @@
 \begin{thebibliography}{}
 
+\bibitem[BELL et~al., 2007]{Bell}
+BELL, R.~M., KOREN, Y.  e VOLINSKY, C. (2007).
+\newblock The bellkor solution to the netflix prize.
+
 \bibitem[BONDY e MURTY, 1976]{Bondy08}
 BONDY, J. e MURTY, U. (1976).
 \newblock {\em Graph Theory}.
 \newblock Springer Publishing Company, Incorporated, 1st edition.
+
+\bibitem[CHENG et~al., 2019]{django}
+CHENG, C., RAMEZANI, H.  e GIBSON, C. (2019).
+\newblock Django project documentation.
+\newblock \url{https://docs.djangoproject.com/en/2.2/}.
+\newblock Acessado em 08/06/2019.
 
 \bibitem[CORMEN et~al., 2009]{Cormen2009}
 CORMEN, T., LEISERSON, C., RIVEST, R.  e STEIN, C. (2009).
@@ -14,6 +24,16 @@ CORMEN, T., LEISERSON, C., RIVEST, R.  e STEIN, C. (2009).
 DIJKSTRA, E. (1959).
 \newblock A note on two problems in connexion with graphs.
 \newblock {\em Numer. Math.}, 1(1):269--271.
+
+\bibitem[Felfernig et~al., 2014]{Recommendation}
+Felfernig, A., Jeran, M., Ninaus, G., Reinfrank, F., Reiterer, S.  e
+  Stettinger, M. (2014).
+\newblock {\em Basic Approaches in Recommendation Systems}, p\'aginas 15--37.
+
+\bibitem[GOLDBERG et~al., 1992]{goldberg92}
+GOLDBERG, D., A.~NICHOLS, D., M.~OKI, B.  e TERRY, D. (1992).
+\newblock Using collaborative filtering to weave an information tapestry.
+\newblock {\em Commun. ACM}, 35:61--70.
 
 \bibitem[KEMP, 2018]{wearesocial18}
 KEMP, S. (2018).
@@ -27,6 +47,12 @@ LUA, A. (2019).
 \newblock The 21 most popular social media sites in 2019.
 \newblock \url{https://buffer.com/library/social-media-sites}.
 \newblock Acessado em 04/06/2019.
+
+\bibitem[LUCAS e WIEGERT, 2019]{ionic}
+LUCAS, E. e WIEGERT, C. (2019).
+\newblock Ionic - cross-platform mobile app development.
+\newblock \url{https://ionicframework.com/docs/intro}.
+\newblock Acessado em 08/06/2019.
 
 \bibitem[MARTELETO, 2001]{Marteleto01}
 MARTELETO, R.~M. (2001).
@@ -49,10 +75,21 @@ MISHRA, A. (2019).
 \newblock Finding nearest neighbors in graphs locally.
 \newblock {\em arXiv e-prints}.
 
+\bibitem[Netflix, 2006]{netflix}
+Netflix, I. (2006).
+\newblock Netflix prize.
+\newblock \url{https://www.netflixprize.com/}.
+\newblock Acessado em 15/06/2019.
+
 \bibitem[PATERSON e YAO, 1992]{Paterson1992}
 PATERSON, M.~S. e YAO, F.~F. (1992).
 \newblock On nearest-neighbor graphs.
 \newblock {\em Springer LNCS}, 623(1):416–426.
+
+\bibitem[RICCI et~al., 2010]{Ricci2010}
+RICCI, F., ROKACH, L., SHAPIRA, B.  e KANTOR, P.~B. (2010).
+\newblock {\em Recommender Systems Handbook}.
+\newblock Springer-Verlag, Berlin, Heidelberg, 1st edition.
 
 \bibitem[SHAMS e HARATIZADEH, 2016]{Bita2016}
 SHAMS, B. e HARATIZADEH, S. (2016).
